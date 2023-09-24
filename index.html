@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Me</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
+
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/app.js" defer></script>
+
+</head>
+<body>
+    
+<div class="wrapper">
+    <div class="content">
+
+        <header class="hero-section">
+            <img data-lag=".5" data-speed=".6" class="hero" src="img/smallMe.png" alt="background image">
+            <div class="container">
+                <div data-speed="0.8" class="main-header">
+                    <h1 class="main-title">Я не Никита Рухтин</h1>
+                </div>
+            </div>
+        </header>
+    
+        <div class="portfolio">
+            <div class="container">
+                <main class="gallery">
+                    <div data-speed=".9" class="gallery__left">
+                        
+                        <img class="gallery__item" src="img/gallery/1.jpg" alt="first image">
+                        <img class="gallery__item" src="img/gallery/2.jpg" alt="second image">
+    
+                        <div class="text-block gallery__item">
+                            <h2 class="text-block__h">Правила</h2>
+                            <p class="text-block__p">Первое правило Бойцовского клуба: не упоминать о Бойцовском клубе
+                                <span id="gallery__left__dots">. . .</span>
+                                <span id="gallery__left__moreText">
+                                    <br />Второе правило Бойцовского клуба: не упоминать нигде о Бойцовском клубе
+                                    <br />Третье правило Бойцовского клуба: боец крикнул «стоп», выдохся, отключился — бой окончен
+                                    <br />Четвертое: в бою участвуют лишь двое
+                                    <br />Пятое: один бой за вечер
+                                    <br />Шестое: снимать обувь и рубашки
+                                    <br />Седьмое: бой продолжается столько, сколько нужно
+                                    <br />Восьмое и последнее: тот, кто впервые пришёл в клуб — примет бой
+                                </span>
+                            </p>
+                            <button onclick="readMore('left')" id="gallery__left__readMoreButton">Показать больше</button>
+                        </div>
+    
+                    </div>
+                    <div data-speed="1.1" class="gallery__right">
+                        
+                        <div class="text-block gallery__item">
+                            <h2 class="text-block__h">Ладно, я Никита Рухтин</h2>
+                            <p class="text-block__p">Учусь в Южно-Уральском Государственном Университете на 3 курсе специальности "Программная инженерия"
+                                <span id="gallery__right__dots">. . .</span>
+                                <span id="gallery__right__moreText">Мне нравится тут учиться, но хочется заниматься ещё чем-то кроме учёбы</span>
+                            </p>
+                            <button onclick="readMore('right')" id="gallery__right__readMoreButton">Показать больше</button>
+                        </div>
+
+                        <img class="gallery__item" src="img/gallery/3.gif" alt="third image">
+                        <img class="gallery__item" src="img/gallery/4.jpg" alt="fourth image">
+                        <img class="gallery__item" src="img/gallery/5.jpg" alt="fifth image">
+    
+                    </div>
+                </main>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
