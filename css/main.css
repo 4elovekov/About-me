@@ -13,12 +13,12 @@
 
 @font-face {
     font-family: raleway-a;
-    src: url(/fonts/raleway-regular.woff2);
+    src: url("/fonts/raleway-regular.woff2");
 }
 
 @font-face {
     font-family: outfit-a;
-    src: url(/fonts/outfit-regular.woff2);
+    src: url("/fonts/outfit-regular.woff2");
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-    background-image: url(/img/bg.jpg);
+    background-image: url("/img/bg.jpg");
     background-size: 50px;
     color: #fafafa;
     font-family: raleway-a;
@@ -117,7 +117,7 @@ body {
 
 #gallery__left__readMoreButton, #gallery__right__readMoreButton {
     padding: 0 .7rem;
-    background-image: url(/img/bg.jpg);
+    background-image: url("/img/bg.jpg");
     background-size: 50px;
     font-size: 1rem;
     line-height: 2.4rem;
