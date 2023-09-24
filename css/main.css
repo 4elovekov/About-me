@@ -17,8 +17,7 @@
 }
 
 body {
-    background-image: url("/img/bg.jpg");
-    background-size: 50px;
+    background-color: #0c0c0f;
     color: #fafafa;
     overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
@@ -103,8 +102,7 @@ body {
 
 #gallery__left__readMoreButton, #gallery__right__readMoreButton {
     padding: 0 .7rem;
-    background-image: url("/img/bg.jpg");
-    background-size: 50px;
+    background-color: #0c0c0f;
     font-size: 1rem;
     line-height: 2.4rem;
     color: var(--color-text);
