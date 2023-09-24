@@ -11,20 +11,6 @@
     --gallery-gap: calc(var(--index) * 10);
 }
 
-@font-face {
-    font-family: raleway-a;
-    src: url("/fonts/raleway-regular.woff2");
-}
-
-@font-face {
-    font-family: outfit-a;
-    src: url("/fonts/outfit-regular.woff2");
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: outfit-a;
-}
-
 /* will-change */
 .content, .hero, .main-header, .gallery > * {
     will-change: transform;
@@ -34,8 +20,8 @@ body {
     background-image: url("/img/bg.jpg");
     background-size: 50px;
     color: #fafafa;
-    font-family: raleway-a;
     overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .hero {
