@@ -11,6 +11,20 @@
     --gallery-gap: calc(var(--index) * 10);
 }
 
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+    background: #d4d4d4;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #999999, #222222);
+    border-radius: 8px;
+    border: 2px solid #d4d4d4;
+}
+
 /* will-change */
 .content, .hero, .main-header, .gallery > * {
     will-change: transform;
@@ -112,21 +126,8 @@ body {
 }
 
 #gallery__left__readMoreButton:hover, #gallery__right__readMoreButton:hover {
+    cursor: pointer;
     background-image: none;
     background-color: var(--color-text);
     color: #000;
-}
-
-::-webkit-scrollbar {
-    width: 13px;
-}
-
-::-webkit-scrollbar-track {
-    background: #d4d4d4;
-}
-
-::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, #999999, #222222);
-    border-radius: 8px;
-    border: 2px solid #d4d4d4;
 }
